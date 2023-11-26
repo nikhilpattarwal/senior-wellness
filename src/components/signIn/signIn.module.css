@@ -1,0 +1,72 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  background: mintcream;
+  height: fit-content;
+  border-radius: 0.5rem;
+  z-index: 1;
+  }
+  
+  .form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .newAccount{
+    text-align: center;
+  }
+
+  .textIcon{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  .crossButton{
+    color: red;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .error{
+    text-align: center;
+    color: rgb(167, 22, 22);
+  }

@@ -1,0 +1,351 @@
+
+.innerContainer{
+    padding: 0  1rem;
+    background: linear-gradient(90deg, rgba(89, 87, 123, 0.315) 0%, rgba(87, 87, 161, 0.342) 35%, rgba(138, 184, 193, 0.466) 100%);
+  
+    color: transparent;
+}
+
+
+
+
+.headingAndImage{
+    display: flex;
+    justify-content: center;
+    /* flex:1; */
+}
+
+
+.headingAndImage img {
+    height: 20rem;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.nameAndHeading h3, h4{
+    background: linear-gradient(90deg, rgb(89, 87, 123) 0%, rgba(87, 87, 161, 1) 35%, rgb(138, 184, 193) 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* For older webkit browsers */
+    color: transparent;
+}
+
+.nameAndHeading h3{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.appointmentCont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.icon1{
+    color: rgb(251, 255, 0);
+    font-size: 4rem;
+    background-color: rgb(121, 180, 184);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.icon2{
+    color: rgb(81, 255, 0);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon3{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.appoint h3{
+    color: rgb(62, 62, 179);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.appoint{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    width: fit-content;
+    flex:1;
+}
+
+.people{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.people img{
+    width: 181.79px;
+    height: 38px;
+}
+
+.people{
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.docAndVoln{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.bookVolenCont{
+   /* border : 2px solid green; */
+   background: linear-gradient(90deg, rgb(89, 87, 123) 0%, rgba(87, 87, 161, 1) 35%, rgb(138, 184, 193) 100%);
+   border-radius: 1rem;
+   transition: background-color 0.5s ease;
+   cursor: pointer;
+}
+
+.bookVolenCont:hover .addIcon{
+    font-size: 6rem;
+}
+
+.volen{
+  /* border: 2px solid white; */
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volen h3{
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.addIcon{
+    color: black;
+    font-size: 4rem;
+    transition: font-size 0.5s ease;
+    cursor: pointer;
+}
+
+.docandvolIcon{
+    color: azure;
+    font-size: 4rem;
+}
+
+
+ .volen h3 {
+        text-align: center;
+    }
+
+
+  .bookVolenContrem{
+    background: linear-gradient(90deg, rgb(89, 87, 123) 0%, rgba(87, 87, 161, 1) 35%, rgb(138, 184, 193) 100%);
+    border-radius: 1rem;
+    cursor: pointer;
+    width:19rem;
+    height: 15.2rem;
+    overflow: hidden;
+  }  
+
+  .bookVolenContrem h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+ .volenrem{
+   display: flex;
+   flex-direction: column;
+ }
+ .nameAndNum h3,h4{
+  margin:0;
+ }
+
+ .nameAndNum h3{
+    color: #fff;
+ }
+
+ .nameAndNum h4{
+    color: #d10c0c;
+   }
+
+ .nameAndNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.nothing{
+    color: #fff;
+    text-align: center;
+    bottom: -20%;
+    position: relative;
+}
+
+.linkWithoutUnderline {
+    text-decoration: none;
+  }
+
+
+@media screen and (max-width: 1080px) {
+    .headingAndImage img {
+        height: 15rem;
+        width:15rem;
+        cursor: pointer;
+    }
+
+    .nameAndHeading h3{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .people img{
+        width: 100.79px;
+        height: 20px;
+    }
+
+    .people{
+        line-height: 14px;
+    }
+    .bookVolenContrem{
+        width:15rem;
+        height: 15rem;
+      } 
+      .volen{
+        /* border: 2px solid white; */
+        width: 15rem;
+        }
+}
+
+@media screen and (max-width: 1000px) {
+    .headingAndImage img {
+        height: 10rem;
+        width:10rem;
+        cursor: pointer;
+    }
+
+    .nameAndHeading h3{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .people img{
+        width: 80.79px;
+        height: 20px;
+    }
+
+    .volen{
+    /* border: 2px solid white; */
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .bookVolenContrem{
+        height: 10rem;
+      } 
+   
+}
+@media screen and (max-width:800px) {
+    .docAndVoln{
+        flex-direction: column;
+    }
+     
+    .bookVolenContrem{
+        width: 100%;
+        height: 11rem;
+        margin: .5rem 0 .5rem 0;
+    }
+    .bookVolenCont{
+        margin: .5rem 0 .5rem 0;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .headingAndImage img {
+        height: 10rem;
+        width:10rem;
+        cursor: pointer;
+    }
+
+    .nameAndHeading h3{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .people img{
+        width: 80.79px;
+        height: 20px;
+    }
+
+    .volen h3 {
+        text-align: center;
+    }
+   
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .headingAndImage{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .headingAndImage img {
+        height: 16rem;
+        width:16rem;
+        cursor: pointer;
+    }
+
+    .nameAndHeading h3{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .people img{
+        width: 80.79px;
+        height: 20px;
+    }
+
+    .volen h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    
+    .appointmentCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+    }
+
+    .volen{
+        /* border: 2px solid white; */
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+   
+}
+
+

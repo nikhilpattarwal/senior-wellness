@@ -1,0 +1,99 @@
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form input{
+    width: 30rem;
+    outline: none;
+}
+
+.button{
+    width: 30rem;
+}
+
+.innerCont{
+  background: linear-gradient(90deg, rgb(52 49 95) 0%, rgb(70 70 127) 35%, rgb(66 97 103) 100%);
+  min-height: 80vh;
+}
+
+form h2{
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.crossIcon{
+  transform: translateX(5rem);
+}
+
+.medremCont {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 47.7vh;
+  }
+  
+  .innercont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 1rem;
+    background: linear-gradient(90deg, rgb(183, 183, 207) 0%, rgb(158, 158, 185) 35%, rgb(167, 199, 206) 100%);
+    border-radius: 1rem;
+    /* gap: 1rem; */
+    margin: 1.4rem;
+  }
+  
+  .details h1, .details h3, .details h4, .details h5 {
+    color: #333;
+    margin: 0;
+    padding: 0.5rem 0; /* Add some spacing between headings */
+  }
+
+  .dayLeft{
+    color:  #d10c0c;
+  }
+  
+
+  @media (max-width: 768px) {
+    .medremCont {
+      padding: 1rem;
+    }
+  
+    .innercont {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .form input{
+      width: 20rem;
+      outline: none;
+  }
+
+  .button{
+    width: 20rem;
+  }
+
+  form h2{
+    font-size: 1rem;
+  }
+
+  .innercont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+  }

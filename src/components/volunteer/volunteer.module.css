@@ -1,0 +1,86 @@
+/* volunteer.module.css */
+
+.mainContainer {
+    /* position: relative; */
+    background: linear-gradient(90deg, rgb(44 44 48 / 50%) 0%, rgb(87 87 161 / 56%) 35%, rgb(56 78 82 / 65%) 100%); 
+    min-height: 93vh;
+  }
+  
+  .volunteerList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  .volunteer {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25.6rem;
+    border-radius: 1rem;
+  }
+  
+  .selected {
+    background-color: #7fa1a1;
+  }
+  
+  
+  .iconContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .availableIcon {
+    color: green;
+    font-size: 1.5rem;
+  }
+  
+  .unavailableIcon {
+    color: red;
+    font-size: 1.5rem;
+  }
+  
+
+  .call{
+    color: green;
+  }
+
+  .message{
+    color: blue;
+  }
+
+  .mainContainer h2{
+    text-align: center;
+    margin:0;
+    color: white;
+  }
+
+  .contactIcons{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(90deg, rgb(230 228 255) 0%, rgb(168 168 207) 35%, rgb(98 121 125) 100%);
+
+  }
+
+  .volunteerList span{
+    color:white;
+  }
