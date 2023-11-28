@@ -1,3 +1,5 @@
+Hosting Link :- https://nikhil-pattarwal-senior-wellness.netlify.app/
+
 # HealthCare Assistance App
 
 This is a HealthCare Assistance application developed using React, Redux, and Firebase. The app helps users manage medication reminders, connect with volunteers, and contact doctors for consultations.
@@ -43,7 +45,7 @@ This is a HealthCare Assistance application developed using React, Redux, and Fi
    cd healthcare-assistance-app
    npm install
 
-2.Set up Firebase:
+2. Set up Firebase:
     Create a Firebase project and obtain the configuration.
     Update the Firebase configuration in src/firebase/firebase.js. 
 
