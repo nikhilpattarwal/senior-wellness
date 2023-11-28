@@ -29,7 +29,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const querySnapshot = await getDocs(collection(db, "medication", String(id), "data"));
+      const querySnapshot = await getDocs(collection(db, "medication", id, "data"));
       const medicationData = [];
   
       querySnapshot.docs.forEach((doc) => {
